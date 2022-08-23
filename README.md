@@ -33,6 +33,7 @@ routes:
   via: x.x.x.x
 ```
 
-Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply` \
+Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply` 
 
+### OpenVPN Setup
 Follow the steps from [here](https://github.com/Nyr/openvpn-install)
