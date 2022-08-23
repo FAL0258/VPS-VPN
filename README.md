@@ -2,10 +2,10 @@
 ## Webarena
 ### Instance Setup:
 System: Ubuntu 22.04\
-No Firewall enabled
+No Firewall enabled\
 
 ### Create Login account:
-Press shift when ECS boot menu appears to enter recory mode
+Press shift when ECS boot menu appears to enter recory mode\
 And enter the following to create account to sudoer
 ```
 sudo adduser falcon
@@ -18,7 +18,20 @@ To enable ssh
 ```
 sudo nano /etc/ssh/sshd_config
 ```
+
 Find `PasswordAuthentication` line and change to make it ends with yes
 ```
 sudo systemctl restart sshd
 ```
+
+DNS resolve:\
+Locate the yml file under `/etc/netplan/`\
+Modify the yml file `gateway4: x.x.x.x` to 
+```
+routes:
+- to: default
+  via: x.x.x.x
+```
+
+Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply`\
+
