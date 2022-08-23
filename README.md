@@ -25,7 +25,7 @@ sudo systemctl restart sshd
 ```
 
 DNS resolve:\
-Locate the yml file under `/etc/netplan/`\
+Locate the yml file under `/etc/netplan/` \
 Modify the yml file `gateway4: x.x.x.x` to 
 ```
 routes:
@@ -33,5 +33,5 @@ routes:
   via: x.x.x.x
 ```
 
-Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply`\
+Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply` \
 
