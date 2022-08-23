@@ -35,3 +35,4 @@ routes:
 
 Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply` \
 
+Follow the steps from [here](https://github.com/Nyr/openvpn-install)
