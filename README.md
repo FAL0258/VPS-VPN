@@ -1,7 +1,7 @@
 # Setting up VPS
 ## Webarena
 ### Instance Setup:
-System: Ubuntu 22.04
+System: Ubuntu 22.04\
 No Firewall enabled
 
 ### Create Login account:
