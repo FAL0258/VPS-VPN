@@ -36,6 +36,6 @@ routes:
 Run `sudo netplan try` and make sure there is no error messages `sudo netplan apply` 
 
 ### OpenVPN Setup
-Follow the steps from [here](https://github.com/Nyr/openvpn-install)
+Follow the steps from [here](https://github.com/yann5280/openvpn-install)
 
 ![Sample Output](https://github.com/yann5280/VPS-VPN/blob/main/sampleoutput.jpg)
